@@ -1,0 +1,69 @@
+D:\IP\ProyectoPAV1\ProyectoPAV1-master\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe.config
+D:\IP\ProyectoPAV1\ProyectoPAV1-master\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe
+D:\IP\ProyectoPAV1\ProyectoPAV1-master\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.pdb
+D:\IP\ProyectoPAV1\ProyectoPAV1-master\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csprojResolveAssemblyReference.cache
+D:\IP\ProyectoPAV1\ProyectoPAV1-master\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.Formularios.frmLogin.resources
+D:\IP\ProyectoPAV1\ProyectoPAV1-master\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.Formularios.frmProductos.resources
+D:\IP\ProyectoPAV1\ProyectoPAV1-master\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.frmPrincipal.resources
+D:\IP\ProyectoPAV1\ProyectoPAV1-master\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.Properties.Resources.resources
+D:\IP\ProyectoPAV1\ProyectoPAV1-master\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csproj.GenerateResource.Cache
+D:\IP\ProyectoPAV1\ProyectoPAV1-master\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.exe
+D:\IP\ProyectoPAV1\ProyectoPAV1-master\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.pdb
+D:\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe.config
+D:\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.exe
+D:\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.pdb
+D:\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe
+D:\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.pdb
+D:\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csprojResolveAssemblyReference.cache
+D:\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.Properties.Resources.resources
+D:\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csproj.GenerateResource.Cache
+D:\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmProductos.resources
+D:\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmLogin.resources
+D:\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmPrincipal.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe.config
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.pdb
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csprojAssemblyReference.cache
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmLogin.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmProductos.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmPrincipal.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.Properties.Resources.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csproj.GenerateResource.cache
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csproj.CoreCompileInputs.cache
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.exe
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.pdb
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\ProyectoPAV1 Con Capas\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Usuarios.frmUsuarios.resources
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe.config
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.pdb
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csprojAssemblyReference.cache
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmLogin.resources
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Productos.frmABMProducto.resources
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmProductos.resources
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmPrincipal.resources
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Usuarios.frmUsuarios.resources
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.Properties.Resources.resources
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csproj.GenerateResource.cache
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csproj.CoreCompileInputs.cache
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.exe
+C:\Users\nacho\Downloads\Entrega 25-9-2019\Entrega 25-9\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.pdb
+D:\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Productos.frmABMProducto.resources
+D:\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Usuarios.frmUsuarios.resources
+D:\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Usuarios.frmABMUsuario.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe.config
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.pdb
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csprojAssemblyReference.cache
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmLogin.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Productos.frmABMProducto.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmProductos.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmPrincipal.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Usuarios.frmABMUsuario.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Usuarios.frmUsuarios.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.Properties.Resources.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csproj.GenerateResource.cache
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csproj.CoreCompileInputs.cache
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.exe
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.pdb
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Marcas.frmABMMarcas.resources
+C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Marcas.frmMarcas.resources
