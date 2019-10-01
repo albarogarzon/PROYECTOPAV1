@@ -65,5 +65,60 @@ namespace ProyectoPAV1.DataAccessLayer
         }
 
 
+        public Marca GetMarca(string nombreMarca)
+        {
+            
+            String strSql = string.Concat(" SELECT idMarca, ",
+                                          "        nombre ",   
+                                          "  FROM Marcas WHERE borrado =0 ");
+
+            strSql += " AND nombre=" + "'" + nombreMarca + "'";
+
+            //Usando el método GetDBHelper obtenemos la instancia unica de DBHelper (Patrón Singleton) y ejecutamos el método ConsultaSQL()
+            var resultado = DBHelper.GetDBHelper().ConsultaSQL(strSql);
+
+            // Validamos que el resultado tenga al menos una fila.
+            if (resultado.Rows.Count > 0)
+            {
+                return Mapping(resultado.Rows[0]);
+            }
+
+            return null;
+        }
+
+        internal bool Create(Marca oMarca)
+        {
+            //modificar
+
+            string str_sql = "INSERT INTO Marcas (nombre, borrado)" +
+                            " VALUES (" +
+                            "'" + oMarca.NombreMarca + "'" +
+                            ",0)";
+
+
+            return (DBHelper.GetDBHelper().EjecutarSQL(str_sql) == 1);
+        }
+
+        internal bool Update(Marca oMarca)
+        {
+            //SIN PARAMETROS
+
+            string str_sql = "UPDATE Marcas " +
+                             "SET nombre=" + "'" + oMarca.NombreMarca + "'" +   
+                             " WHERE idMarca=" + oMarca.IdMarca;
+
+            return (DBHelper.GetDBHelper().EjecutarSQL(str_sql) == 1);
+        }
+
+        internal bool Delete(Marca oMarca)
+        {
+            string str_sql = "UPDATE Marcas " +
+                             "SET borrado=" + "'" + true + "'" +
+                             " WHERE idMarca=" + oMarca.IdMarca;
+
+
+            return (DBHelper.GetDBHelper().EjecutarSQL(str_sql) == 1);
+        }
+
     }
 }

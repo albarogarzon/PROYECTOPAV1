@@ -134,7 +134,7 @@ namespace ProyectoPAV1.GUILayer.Usuarios
 
         private void btnSalir_Click(System.Object sender, System.EventArgs e)
         {
-            this.Close();
+            
         }
 
         private void btnAceptar_Click_1(object sender, EventArgs e)
@@ -206,6 +206,11 @@ namespace ProyectoPAV1.GUILayer.Usuarios
                         break;
                     }
             }
+        }
+
+        private void btnCancelar_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

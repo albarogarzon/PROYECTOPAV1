@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using ProyectoPAV1.GUILayer;
 using ProyectoPAV1.GUILayer.Productos;
 using ProyectoPAV1.GUILayer.Usuarios;
+using ProyectoPAV1.GUILayer.Marcas;
 
 namespace ProyectoPAV1
 {

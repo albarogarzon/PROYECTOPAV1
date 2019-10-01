@@ -58,6 +58,7 @@
             this.btnAceptar.TabIndex = 34;
             this.btnAceptar.Text = "&Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnCancelar
             // 
@@ -67,6 +68,7 @@
             this.btnCancelar.TabIndex = 35;
             this.btnCancelar.Text = "&Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // frmABMMarcas
             // 
@@ -79,6 +81,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmABMMarcas";
             this.Text = "frmABMMarcas";
+            this.Load += new System.EventHandler(this.frmABMMarcas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

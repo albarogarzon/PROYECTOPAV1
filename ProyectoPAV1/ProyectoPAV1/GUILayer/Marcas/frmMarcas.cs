@@ -62,6 +62,7 @@ namespace ProyectoPAV1.GUILayer.Marcas
                     MessageBox.Show("Debe ingresar una Marca", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else
+                
                 dgvMarcas.DataSource = oMarcaService.ObtenerTodos();
         }
 
@@ -97,6 +98,52 @@ namespace ProyectoPAV1.GUILayer.Marcas
             // Cambia el tamaño de todas las alturas de fila para ajustar el contenido de todas las celdas que no sean de encabezado.
             dgvMarcas.AutoResizeRows(
                 DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders);
+        }
+
+        private void btnNueva_Click(object sender, EventArgs e) //nueva marca
+        {
+            frmABMMarcas formulario = new frmABMMarcas();
+            formulario.ShowDialog();
+            btnConsultar_Click(sender, e);
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e) //editar marca
+        {
+            frmABMMarcas fr = new frmABMMarcas();
+            var marca = (Marca)dgvMarcas.CurrentRow.DataBoundItem;
+            fr.SeleccionarMarca(frmABMMarcas.FormMode.update, marca);
+            fr.ShowDialog();
+            btnConsultar_Click(sender, e);
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e) //eliminar marca
+        {
+            frmABMMarcas frm = new frmABMMarcas();
+            var marca = (Marca)dgvMarcas.CurrentRow.DataBoundItem;
+            frm.SeleccionarMarca(frmABMMarcas.FormMode.delete,marca);
+            frm.ShowDialog();
+            btnConsultar_Click(sender, e);
+
+        }
+
+        private void chkTodas_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkTodas.Checked)
+            {
+                txtNombre.Enabled = false;
+                
+            }
+            else
+            {
+                txtNombre.Enabled = true;
+                
+            }
+        }
+
+        private void dgvMarcas_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            btnEditar.Enabled = true;
+            btnEliminar.Enabled = true;
         }
     }
 }

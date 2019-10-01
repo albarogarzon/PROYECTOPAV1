@@ -25,5 +25,27 @@ namespace ProyectoPAV1.BusinessLayer
             return oMarcaDao.GetByFilters(condiciones);
         }
 
+        internal object ObtenerMarca(string marca)
+        {
+            //SIN PARAMETROS
+            return oMarcaDao.GetMarca(marca);
+
+            //CON PARAMETROS
+            // return oUsuarioDao.GetUserConParametros(usuario);
+        }
+
+        internal bool CrearMarca(Marca oMarca)
+        {
+            return oMarcaDao.Create(oMarca);
+        }
+        internal bool ActualizarMarca(Marca oMarcaSelected)
+        {
+            return oMarcaDao.Update(oMarcaSelected);
+        }
+        internal bool ModificarEstadoMarca(Marca oMarcaSelected)
+        {
+            return oMarcaDao.Delete(oMarcaSelected);
+            //throw new NotImplementedException();
+        }
     }
 }
