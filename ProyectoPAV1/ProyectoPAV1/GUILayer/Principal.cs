@@ -27,12 +27,6 @@ namespace ProyectoPAV1.GUILayer
 
         }
 
-        private void consultarProductosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmProductos f2 = new frmProductos();
-            f2.ShowDialog();
-        }
-
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -45,6 +39,12 @@ namespace ProyectoPAV1.GUILayer
         {
             frmMarcas frmM = new frmMarcas();
             frmM.ShowDialog();
+        }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProductos f2 = new frmProductos();
+            f2.ShowDialog();
         }
     }
 }

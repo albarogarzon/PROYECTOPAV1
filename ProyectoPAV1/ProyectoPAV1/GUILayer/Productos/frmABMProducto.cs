@@ -63,6 +63,7 @@ namespace ProyectoPAV1.GUILayer.Productos
                 case FormMode.delete:
                     {
                         this.Text = "Habilitar/Deshabilitar Producto";
+                        MostrarDatos();
                         txtNombre.Enabled = false;
                         txtDescripción.Enabled = false;
                         txtStock.Enabled = false;
@@ -136,9 +137,16 @@ namespace ProyectoPAV1.GUILayer.Productos
 
                 case FormMode.delete:
                     {
+                        
                         if (MessageBox.Show("Seguro que desea habilitar/deshabilitar el producto seleccionado?", "Aviso", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                         {
-                            this.Close();
+                            if (oProductoService.ModificarEstadoProducto(oProductoSelected))
+                            {
+                                MessageBox.Show("Producto Habilitada/Deshabilitada!", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                this.Close();
+                            }
+                            else
+                                MessageBox.Show("Error al actualizar el producto!", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
 
                         break;

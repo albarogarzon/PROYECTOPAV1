@@ -36,11 +36,6 @@
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
-            this.NProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descripción = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Stock = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pnlFiltros.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdProductos)).BeginInit();
             this.SuspendLayout();
@@ -61,7 +56,7 @@
             this.pnlFiltros.Controls.Add(this.lblMarcaProducto);
             this.pnlFiltros.Location = new System.Drawing.Point(12, 12);
             this.pnlFiltros.Name = "pnlFiltros";
-            this.pnlFiltros.Size = new System.Drawing.Size(477, 68);
+            this.pnlFiltros.Size = new System.Drawing.Size(478, 68);
             this.pnlFiltros.TabIndex = 6;
             this.pnlFiltros.TabStop = false;
             this.pnlFiltros.Text = "Filtros";
@@ -87,16 +82,11 @@
             // grdProductos
             // 
             this.grdProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.NProducto,
-            this.Nombre,
-            this.Descripción,
-            this.Stock,
-            this.Precio});
             this.grdProductos.Location = new System.Drawing.Point(13, 98);
             this.grdProductos.Name = "grdProductos";
-            this.grdProductos.Size = new System.Drawing.Size(701, 320);
+            this.grdProductos.Size = new System.Drawing.Size(659, 320);
             this.grdProductos.TabIndex = 7;
+            this.grdProductos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdProductos_CellClick);
             // 
             // btnNuevo
             // 
@@ -128,37 +118,11 @@
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
-            // NProducto
-            // 
-            this.NProducto.HeaderText = "# Producto";
-            this.NProducto.Name = "NProducto";
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            // 
-            // Descripción
-            // 
-            this.Descripción.HeaderText = "Descripción";
-            this.Descripción.Name = "Descripción";
-            this.Descripción.Width = 250;
-            // 
-            // Stock
-            // 
-            this.Stock.HeaderText = "Stock";
-            this.Stock.Name = "Stock";
-            // 
-            // Precio
-            // 
-            this.Precio.HeaderText = "Precio";
-            this.Precio.Name = "Precio";
-            // 
             // frmProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(726, 466);
+            this.ClientSize = new System.Drawing.Size(684, 466);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btnNuevo);
@@ -184,10 +148,5 @@
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NProducto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Descripción;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Stock;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
     }
 }

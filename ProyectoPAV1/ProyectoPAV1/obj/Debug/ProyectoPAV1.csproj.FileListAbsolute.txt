@@ -67,3 +67,20 @@ C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\Proy
 C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.pdb
 C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Marcas.frmABMMarcas.resources
 C:\Users\Albaro\Documents\3 er año\PAV1\Proyecto\Entrega 2-10\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Marcas.frmMarcas.resources
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe.config
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.exe
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\bin\Debug\ProyectoPAV1.pdb
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csprojAssemblyReference.cache
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmLogin.resources
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Marcas.frmABMMarcas.resources
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Marcas.frmMarcas.resources
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Productos.frmABMProducto.resources
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmProductos.resources
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.frmPrincipal.resources
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Usuarios.frmABMUsuario.resources
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.GUILayer.Usuarios.frmUsuarios.resources
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.Properties.Resources.resources
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csproj.GenerateResource.cache
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.csproj.CoreCompileInputs.cache
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.exe
+C:\Users\nacho\Documents\GitHub\ProyectoPAV1\ProyectoPAV1\ProyectoPAV1\obj\Debug\ProyectoPAV1.pdb

@@ -16,7 +16,7 @@ namespace ProyectoPAV1.DataAccessLayer
 
         public DBHelper()
          {
-             string_conexion = "Data Source=ALBARO-PC\\SQLEXPRESS1;Initial Catalog=PAVGarzonPassadore;Integrated Security=True;Persist Security Info=True";
+             string_conexion = "Data Source=IPD-PC;Initial Catalog=PAVGarzonPassadore;Integrated Security=True;Persist Security Info=True";
          }
 
         public static DBHelper GetDBHelper()

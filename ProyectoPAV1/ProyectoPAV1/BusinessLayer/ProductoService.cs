@@ -19,6 +19,10 @@ namespace ProyectoPAV1.BusinessLayer
         {
             return oProductoDao.GetAll();
         }
+        internal IList<Producto> ConsultarConFiltros(String condiciones)
+        {
+            return oProductoDao.GetByFilters(condiciones);
+        }
         internal bool CrearProducto(Producto oProducto)
         {
             return oProductoDao.Create(oProducto);
@@ -27,6 +31,13 @@ namespace ProyectoPAV1.BusinessLayer
         internal bool ActualizarProducto(Producto oProductoSelected)
         {
             return oProductoDao.Update(oProductoSelected);
+        }
+
+
+        internal bool ModificarEstadoProducto(Producto oProductoSelected)
+        {
+            return oProductoDao.Delete(oProductoSelected);
+            //throw new NotImplementedException();
         }
 
         internal object ObtenerProducto(string producto)

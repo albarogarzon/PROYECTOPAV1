@@ -31,7 +31,10 @@ namespace ProyectoPAV1.DataAccessLayer
             Producto oProducto = new Producto
             {
                 IdProducto = Convert.ToInt32(row["id_producto"].ToString()),
-                NombreProducto = row["nombre"].ToString()
+                NombreProducto = row["nombre"].ToString(),
+                DescripciónProducto = row["descripcion"].ToString(),
+                StockProducto = row["stock"].ToString(),
+                PrecioProducto = row.Table.Columns.Contains("precioVenta") ? row["precioVenta"].ToString() : null,
             };
 
             return oProducto;
@@ -49,11 +52,42 @@ namespace ProyectoPAV1.DataAccessLayer
                 MarcaProducto = new Marca()
                 {
                     IdMarca = Convert.ToInt32(row["idMarca"].ToString()),
-                    NombreMarca = row["nombre"].ToString(),
+                    NombreMarca = row["NombreMarca"].ToString(),
                 }
             };
 
             return oProducto;
+        }
+        public IList<Producto> GetByFilters(String condiciones)
+        {
+            string strSql = " ";
+            List<Producto> lst = new List<Producto>();
+            strSql = string.Concat(" SELECT p.id_producto, ",
+                                              "        p.nombre, ",
+                                          "        p.descripcion, ",
+                                          "        p.stock, ",
+                                          "        p.precioVenta, ",
+                                          "        m.idMarca, ",
+                                          "        m.nombre as NombreMarca ",
+                                              "   FROM Productos as p",
+                                          "  INNER JOIN Marcas m ON p.marcaProducto= m.idMarca ",
+                                              "  WHERE p.borrado =0  ");
+
+
+
+            strSql += condiciones;
+
+
+            // if (parametros.ContainsKey("usuario"))
+            //    strSql += " AND (u.usuario LIKE '%' + @usuario + '%') ";
+
+            var resultado = DBHelper.GetDBHelper().ConsultaSQL(strSql);
+
+
+            foreach (DataRow row in resultado.Rows)
+                lst.Add(ObjectMapping(row));
+
+            return lst;
         }
 
         public Producto GetProductosSinParametros(string nombreProducto)
@@ -64,7 +98,7 @@ namespace ProyectoPAV1.DataAccessLayer
                                           "        stock, ",
                                           "        precioVenta, ",
                                           "        m.idMarca, ",
-                                          "        m.nombre as nombre ",
+                                          "        m.nombre as NombreMarca ",
                                           "   FROM Productos p",
                                           "  INNER JOIN Marcas m ON p.marcaProducto= m.idMarca ",
                                           "  WHERE p.borrado =0 ");
@@ -112,6 +146,17 @@ namespace ProyectoPAV1.DataAccessLayer
                              " WHERE id_producto=" + oProducto.IdProducto;
 
             return (DBHelper.GetDBHelper().EjecutarSQL(str_sql) == 1);
+        }
+        internal bool Delete(Producto oProducto)
+        {
+            string str_sql = "UPDATE Productos " +
+                                "SET borrado=" + "'" + true + "'" +
+                                " WHERE id_producto=" + oProducto.IdProducto;
+
+
+            return (DBHelper.GetDBHelper().EjecutarSQL(str_sql) == 1);
+
+
         }
 
     }

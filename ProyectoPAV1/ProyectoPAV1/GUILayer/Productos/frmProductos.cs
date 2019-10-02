@@ -18,23 +18,26 @@ namespace ProyectoPAV1.GUILayer
     public partial class frmProductos : Form
     {
         private readonly MarcaService marcaService;
+        private ProductoService oProductoService;
         public frmProductos()
         {
             InitializeComponent();
             marcaService = new MarcaService();
+            oProductoService = new ProductoService();
         }
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            string strSql = "SELECT TOP 20 * FROM Productos WHERE 1=1 ";
+
+            String condiciones = " ";
+
             if (!string.IsNullOrEmpty(cboMarcaProducto.Text))
             {
                 var Marca = cboMarcaProducto.SelectedValue.ToString();
-                strSql += "AND (MarcaProducto=" + Marca + ") ";
-                DBHelper D1 = new DBHelper();
-                DataTable Tabla1 =D1.ConsultaSQL(strSql);
-                cargarGrilla(grdProductos, Tabla1);
-
+                condiciones += "AND (m.idMarca=" + Marca + ") ";
+                //SIN PARAMETROS
+                 grdProductos.DataSource = oProductoService.ConsultarConFiltros(condiciones);
+                
             }
 
 
@@ -46,24 +49,7 @@ namespace ProyectoPAV1.GUILayer
             LlenarCombo(cboMarcaProducto, marcaService.ObtenerTodos(), "NombreMarca", "IdMarca");
         }
 
-
-
-
-
-        private void cargarGrilla(DataGridView grilla, DataTable tabla)
-        {
-            grilla.Rows.Clear();
-            //debo hacer un ciclo
-            for (int i = 0; i < tabla.Rows.Count; i++)
-            {
-                grilla.Rows.Add(tabla.Rows[i]["id_producto"],
-                    tabla.Rows[i]["nombre"],
-                    tabla.Rows[i]["descripcion"],
-                    tabla.Rows[i]["stock"],
-                    tabla.Rows[i]["precioVenta"]);
-            }
-
-        }
+        
 
         private void LlenarCombo(ComboBox cbo, Object source, string display, String value)
         {
@@ -87,21 +73,26 @@ namespace ProyectoPAV1.GUILayer
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            frmABMProducto formulario = new frmABMProducto();
-            var producto = (Producto)grdProductos.CurrentRow.Cells[0].Value;
-            formulario.SeleccionarProducto(frmABMProducto.FormMode.update, producto);
-            formulario.ShowDialog();
+            frmABMProducto fr = new frmABMProducto();
+            var producto = (Producto)grdProductos.CurrentRow.DataBoundItem;
+            fr.SeleccionarProducto(frmABMProducto.FormMode.update, producto);
+            fr.ShowDialog();
             btnConsultar_Click(sender, e);
 
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            frmABMProducto formulario = new frmABMProducto();
-            var producto = (Producto)grdProductos.CurrentRow.Cells[0].Value;
-            formulario.SeleccionarProducto(frmABMProducto.FormMode.delete, producto);
-            formulario.ShowDialog();
+            frmABMProducto fr = new frmABMProducto();
+            var producto = (Producto)grdProductos.CurrentRow.DataBoundItem;
+            fr.SeleccionarProducto(frmABMProducto.FormMode.delete, producto);
+            fr.ShowDialog();
             btnConsultar_Click(sender, e);
+        }
+        private void grdProductos_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            btnEditar.Enabled = true;
+            btnEliminar.Enabled = true;
         }
     }
 }
