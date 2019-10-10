@@ -11,6 +11,7 @@ using ProyectoPAV1.GUILayer;
 using ProyectoPAV1.GUILayer.Usuarios;
 using ProyectoPAV1.GUILayer.Marcas;
 
+
 namespace ProyectoPAV1.GUILayer
 {
     public partial class frmPrincipal : Form
@@ -45,6 +46,12 @@ namespace ProyectoPAV1.GUILayer
         {
             frmProductos f2 = new frmProductos();
             f2.ShowDialog();
+        }
+
+        private void facturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFactura ff = new frmFactura();
+            ff.ShowDialog();
         }
     }
 }

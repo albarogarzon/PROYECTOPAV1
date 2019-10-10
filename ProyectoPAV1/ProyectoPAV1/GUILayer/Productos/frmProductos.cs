@@ -30,16 +30,44 @@ namespace ProyectoPAV1.GUILayer
         {
 
             String condiciones = " ";
+            var filters = new Dictionary<string, object>();
 
-            if (!string.IsNullOrEmpty(cboMarcaProducto.Text))
+            if (!chkTodas.Checked)
             {
-                var Marca = cboMarcaProducto.SelectedValue.ToString();
-                condiciones += "AND (m.idMarca=" + Marca + ") ";
-                //SIN PARAMETROS
-                 grdProductos.DataSource = oProductoService.ConsultarConFiltros(condiciones);
-                
-            }
+                if (!string.IsNullOrEmpty(cboMarcaProducto.Text))
+                {
 
+                var Marca = cboMarcaProducto.SelectedValue.ToString();
+
+                filters.Add("idMarca", cboMarcaProducto.SelectedValue);
+
+                condiciones += " AND (m.idMarca=" + Marca + ") ";
+             
+                 
+                
+                }
+                if (!string.IsNullOrEmpty(txtNombreProducto.Text))
+                {
+                    var nombre = txtNombreProducto.Text;
+
+                    filters.Add("nombre", txtNombreProducto.Text);
+
+                    condiciones += " AND (p.nombre LIKE '%" + nombre + "%' ) ";
+
+                }
+               
+                if (filters.Count > 0)
+                    //SIN PARAMETROS
+                    grdProductos.DataSource = oProductoService.ConsultarConFiltros(condiciones);
+
+                else
+                    MessageBox.Show("Debe ingresar al menos un criterio", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+            }
+            else
+
+                grdProductos.DataSource = oProductoService.ObtenerTodos();
+           
 
 
         }
@@ -93,6 +121,20 @@ namespace ProyectoPAV1.GUILayer
         {
             btnEditar.Enabled = true;
             btnEliminar.Enabled = true;
+        }
+
+        private void chkTodas_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkTodas.Checked)
+            {
+                txtNombreProducto.Enabled = false;
+                cboMarcaProducto.Enabled = false;
+            }
+            else
+            {
+                txtNombreProducto.Enabled = true;
+                cboMarcaProducto.Enabled = true;
+            }
         }
     }
 }

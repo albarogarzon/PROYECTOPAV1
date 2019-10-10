@@ -8,6 +8,7 @@ using ProyectoPAV1.GUILayer.Productos;
 using ProyectoPAV1.GUILayer.Usuarios;
 using ProyectoPAV1.GUILayer.Marcas;
 
+
 namespace ProyectoPAV1
 {
     static class Program
@@ -20,7 +21,7 @@ namespace ProyectoPAV1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmProductos());
+            Application.Run(new frmPrincipal());
         }
     }
 }

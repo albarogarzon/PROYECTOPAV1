@@ -67,11 +67,9 @@ namespace ProyectoPAV1.GUILayer.Usuarios
                 {
                     // Si el textBox tiene un texto no vacìo entonces recuperamos el valor del texto
                     filters.Add("usuario", txtNombre.Text);
-                    //condiciones += "AND u.usuario=" + "'" + txtNombre.Text + "'";
 
                     condiciones += " AND (u.usuario LIKE '%" + txtNombre.Text + "%') ";
 
-                   // strSql += " AND (u.usuario LIKE '%' + @usuario + '%') ";
                 }
 
                 if (filters.Count > 0)

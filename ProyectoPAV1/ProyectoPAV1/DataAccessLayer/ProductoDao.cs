@@ -14,13 +14,13 @@ namespace ProyectoPAV1.DataAccessLayer
         {
             List<Producto> listado = new List<Producto>();
 
-            var strSql = "SELECT id_producto, nombre from Productos  where borrado=0";
+            var strSql = "SELECT p.id_producto,p.nombre,p.descripcion,p.stock,p.precioVenta,m.idMarca,m.nombre as NombreMarca  FROM Productos p INNER JOIN Marcas m ON p.marcaProducto= m.idMarca   where p.borrado=0  ";
 
             var resultadoConsulta = DBHelper.GetDBHelper().ConsultaSQL(strSql);
 
             foreach (DataRow row in resultadoConsulta.Rows)
             {
-                listado.Add(Mapping(row));
+                listado.Add(ObjectMapping(row));
             }
 
             return listado;
